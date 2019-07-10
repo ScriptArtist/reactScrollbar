@@ -450,9 +450,9 @@ export default class ScrollArea extends React.Component {
     }
 
     focusContent() {
-        if(this.content) {
-            findDOMNode(this.content).focus();
-        }
+        // if(this.content) {
+        //     findDOMNode(this.content).focus();
+        // }
     }
 }
 
